@@ -1,0 +1,29 @@
+==============================================================
+          WI-FI PASSWORD SECURITY AUDITOR
+==============================================================
+Local password-strength assessment only.
+
+--------------------------------------------------------------
+                 PASSWORD AUDIT REPORT
+--------------------------------------------------------------
+Length                 : 23 characters
+Character categories   : 4 / 4
+Estimated entropy      : 151.1 bits (rough estimate)
+Security score         : 100 / 100
+Strength               : Strong
+
+Checks:
+  [x] Lowercase
+  [x] Uppercase
+  [x] Digits
+  [x] Symbols
+  [ ] Spaces
+
+Findings:
+  - No basic weakness patterns detected.
+
+Recommendations:
+  - Good result. Keep it unique and enable router security features such as WPA2-AES or WPA3.
+--------------------------------------------------------------
+
+Privacy: your input was not stored or sent anywhere.

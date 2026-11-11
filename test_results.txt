@@ -1,0 +1,20 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_common_password_is_flagged (test_password_checker.PasswordCheckerTests.test_common_password_is_flagged) ... ok
+test_empty_password_is_weak (test_password_checker.PasswordCheckerTests.test_empty_password_is_weak) ... ok
+test_long_mixed_sample_scores_higher (test_password_checker.PasswordCheckerTests.test_long_mixed_sample_scores_higher) ... ok
+test_non_string_raises_type_error (test_password_checker.PasswordCheckerTests.test_non_string_raises_type_error) ... ok
+test_password_is_not_returned (test_password_checker.PasswordCheckerTests.test_password_is_not_returned) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
